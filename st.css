@@ -1,0 +1,134 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo{
+
+    color:black;
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span{
+
+    color:brown;
+}
+nav ul li {
+     list-style-type: none;
+     display: inline-block ;
+     padding: 10px 25px;
+  
+}
+nav ul li a {
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+  color:brown;
+
+}
+.content{
+position: absolute;
+top: 50%;
+left: 8%;
+transform: translateY(-50%);
+
+}
+h1{
+    color: black;
+    margin: 20px 0px 20px ;
+    font-size: 70px;
+
+
+}
+h3{
+  color: darkslategrey;
+  font: size 25px;
+  margin-bottom: 50px;
+
+}
+h4{
+color:darkslategrey;
+letter-spacing: 2px;
+font-size: 20px ;
+
+
+}
+
+
+.newslatter form input:first-child{
+display: inline-block;
+width: 30%;
+padding: 14px 130px 14px 15px;
+border: 2px solid brown ;
+outline: none;
+border-radius: 30px;
+
+
+}
+.newslatter form input:last-child{
+position: absolute;
+display: inline-block;
+outline: none;
+border: none;
+padding: 10px 30px ;
+border-radius: 30px ;
+background-color: brown;
+color: black;
+box-shadow: 0px 0px 5px  ;
+top: 5px;
+
+}
+.about{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+gap: 1.5rem;
+
+}
+.service{
+ 
+ width: auto;
+ padding: 50 0px;
+
+
+}
+.title h2{
+color: red;
+font-size: 75px;
+width: 1100px;
+margin: 30px auto;
+text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 360px;
+    width: 330px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.cardi{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: brown;
+}
