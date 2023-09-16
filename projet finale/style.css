@@ -1,0 +1,21 @@
+body {
+    background-image: url('../pf/fond-noir-texture-marbre-marbre-thailande-marbre-naturel-abstrait-noir-blanc-pour-design_1253-917.avif'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover; /* Adjusts the image size to cover the entire viewport */
+    background-repeat: no-repeat;
+
+}
+
+.navbar {
+    background-color: #e9e4e4;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: rgb(185, 44, 44);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+}
